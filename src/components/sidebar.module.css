@@ -1,0 +1,26 @@
+.sidebar {
+  grid-area: sidebar;
+  background-color: var(--grey-menu-color);
+  color: var(--white-color);
+  font-weight: 500;
+  line-height: 20px;
+  position: relative;
+}
+
+.sidebar .menu {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.sidebar footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 24px;
+  font-size: 9px;
+  line-height: 11px;
+  text-align: center;
+  background-color: var(--grey-menu-color);
+}

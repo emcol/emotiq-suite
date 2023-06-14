@@ -1,0 +1,12 @@
+.submenu-item {
+  border-left: 8px solid transparent;
+  padding: 16px 24px;
+  transition: border-left-color .3s ease-in-out;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.submenu-item.active {
+  border-left-color: var(--accent-color);
+}

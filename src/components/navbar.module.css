@@ -1,0 +1,51 @@
+.navbar {
+  grid-area: navbar;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  padding: 24px 56px;
+}
+
+.navbar .logo {
+  height: 24px;
+  width: auto;
+  overflow: hidden;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  padding-left: 56px;
+  height: 100%;
+  gap: 24px;
+}
+
+.navbar ul li {
+  height: 100%;
+}
+
+.navbar ul li a {
+  height: 100%;
+}
+
+.navbar ul .divider {
+  width: 2px;
+  height: 100%;
+  background-color: var(--grey-neutral-color);
+}
+
+.navbar ul li .circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  background-color: var(--grey-dark-color);
+  color: var(--white-color);
+}

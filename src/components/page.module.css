@@ -1,0 +1,33 @@
+.page {
+  grid-area: content;
+  padding: 14px 24px;
+}
+
+.page h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: var(--primary-color);
+}
+
+.tabs {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 26px 0;
+}
+
+.tab {
+  cursor: pointer;
+}
+.tab h2 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #333F48;
+  transition: color 0.4s ease-in-out;
+}
+
+.tab.active h2 {
+  color: var(--accent-color);
+}
